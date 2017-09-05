@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="com.annotation.test.configuration.provider" name="ConfigurationProvider" schema="schema/com.annotation.test.configuration.provider.exsd"/>
+   <extension
+         point="com.annotation.test.configuration.provider">
+      <ConfigurationProvider></ConfigurationProvider>
+   </extension>
+
+</plugin>
